@@ -3,7 +3,9 @@ module.exports = {
   connection: process.env.DATABASE_URL || {
     user: "admin",
     password: "admin",
-    database: "bridge-applications-local"
+    database: "bridge-applications-local",
+    port: "5436"
+    
   },
   migrations: {
     directory: `${__dirname}/db/migrations`

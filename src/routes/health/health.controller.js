@@ -1,8 +1,8 @@
 const healthController = (req, res) => {
   return res.json({
-    ok: "OK"
-  });
-};
+    ok: 'OK'
+  })
+}
 
 module.exports = {
   healthController
