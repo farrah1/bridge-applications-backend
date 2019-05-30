@@ -25,4 +25,4 @@ jobs:
             ESLINT_REPORT: ./reports/eslint/eslint-reports.yaml
           when: always
       - store_artifacts:
-        path: reports
+          path: reports
