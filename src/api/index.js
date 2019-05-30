@@ -12,7 +12,7 @@ const {
 const router = express.Router()
 
 // unauthenticated endpoints
-router.use('/health', healthRouter)
+router.use('/', healthRouter)
 
 router.use(authenticateRequest)
 router.use(authorizeRequest)
